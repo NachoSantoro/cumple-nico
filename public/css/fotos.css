@@ -1,0 +1,39 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/images/loquito.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+div#contenedor{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 740px;
+    height: 580px;
+    background-image: url(/images/fiesta.gif);
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    height: 66vh;
+    animation: Cue-In 2s ease-in-out;;
+    
+  }
+
+
+  .container img{
+    width: 350px;
+    height: 500px;
+  }
